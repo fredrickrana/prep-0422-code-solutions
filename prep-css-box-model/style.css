@@ -7,4 +7,9 @@ button {
   color: white;
 
   /* 👇 YOUR CODE HERE 👇 */
+  margin: 20px;
+  padding: 10px;
+  border-style: double;
+  border-width: 3px;
+  border-color: darkgrey;
 }
