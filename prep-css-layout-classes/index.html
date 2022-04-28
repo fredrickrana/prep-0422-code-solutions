@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100%/3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    img {
+      width:100%;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Back to the Future</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="https://m.media-amazon.com/images/I/91LbNAAfA4L._SY445_.jpg" alt="B2F">
+        <h3>Back to the Future</h3>
+        <p>Back to the Future is a 1980s sci-fi classic, with a teen protagonist named Marty McFly (Michael J. Fox) who gets sent back in time as a result of a 'science project gone wrong' scenario, featuring scientist and inventor, Doc Brown (Christopher Lloyd). Marty meets younger versions of his parents and now faces the challenges of having them fall in love or he will cease to exist. All of the following takes place while he must also figure out how to return to his own time.</p>
+      </div>
+      <div class="column">
+        <img src="https://m.media-amazon.com/images/I/51OFyPkAfaL._AC_.jpg" alt="B2F2">
+        <h3>Back to the Future Part 2</h3>
+        <p>Back to the Future Part 2 is a continuation of Back to the Future and features even more adventures and challenges for the time traveling duo. The movie starts off with both Marty and Dr. Brown traveling to the future in order to save Marty's future son from disaster. However, they discover that the timeline has changed as a result of anatagonist, Biff Tannen (Thomas F. Wilson). Now Marty and the Doc must stop Biff and repair the space-time continuum.</p>
+      </div>
+      <div class="column">
+        <img src="https://m.media-amazon.com/images/M/MV5BYjhlMGYxNmMtOWFmMi00Y2M2LWE5NWYtZTdlMDRlMGEzMDA3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg" alt="B2F3">
+        <h3>Back to the Future Part 3</h3>
+        <p>Back to the Future Part 3 is the final movie to the Back to the Future trilogy. The moive takes place in the Old West as a result of Marty McFly taveling back in time in order to save his friend, Dr. Brown, and bring him back to his current timeline. However, challenges arise when the DeLorean needs repairing and the duo is faced against a group of gunslingers.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Complete the HTML here -->
+
+</body>
+</html>
